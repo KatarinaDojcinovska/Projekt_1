@@ -408,6 +408,30 @@ main{
     color: #087fe7;
 }
 
+#design-box{
+    text-align: center;
+    padding: 10px;
+}
+
+#design-box h1{
+    font-size: 20px;
+}
+
+#design-box p{
+    color: #7f7f7f;
+    font-size: 14px;
+}
+
+#design-box a{
+    color: black;
+    font-size: 14px;
+}
+
+#design-box a:hover{
+    color: #087fe7;
+}
+
+
 /*-------------love us-------------*/
 
 .love-us{
