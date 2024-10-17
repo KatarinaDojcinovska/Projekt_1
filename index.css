@@ -628,6 +628,12 @@ footer{
         display: flex;
         justify-content: end;
         width: 20px;
+        padding: 5px;
+    }
+
+    #hamburger:hover{
+        background-color: #e5e5e5;
+        border-radius: 5px;
     }
 
     .section{
@@ -645,6 +651,10 @@ footer{
 
     .box-1 h1{
         font-size: 50px;
+    }
+
+    #line{
+        display: none;
     }
 
     main{
