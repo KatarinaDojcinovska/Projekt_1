@@ -69,7 +69,7 @@ nav.sub-menu-part1{
     position: absolute;
     background-color: white;
     width: 200px;
-    border: 1px solid black;
+    box-shadow:5px 5px 16px 5px rgba(0, 0, 0, 0.2); ;
 }
 
 .top-menu-container:hover nav.sub-menu-part1{
@@ -89,6 +89,7 @@ nav.sub-menu{
     background-color: white;
     width: 150px;
     text-align: left;
+    box-shadow:5px 5px 16px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav.sub-menu a{
