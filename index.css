@@ -59,7 +59,7 @@ nav#top-menu{
 .top-menu-items:hover{
     background-color:#e5e5e5;
     border-radius: 5px;
- }
+}
 
 nav.sub-menu-part1{
     display: none;
@@ -88,15 +88,15 @@ nav.sub-menu{
     padding: 10px;
     position: absolute;
     background-color: white;
-    width: 200px;
+    width: 150px;
     text-align: left;
 }
 
 nav.sub-menu a{
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 10px;
     color: black;
-    font-weight: bold;
+    font-weight: inherit;
 }
 
 
