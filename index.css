@@ -80,7 +80,6 @@ nav.sub-menu-part1:hover{
     border-radius: 5px;
 }
 
-
 nav.sub-menu{
     display: none;
     flex-direction: column;
@@ -104,6 +103,38 @@ nav.sub-menu a:hover{
     background-color: #e5e5e5;
     border-radius: 5px;
 }
+
+.sub-menu p{
+    color: #7f7f7f;
+}
+
+nav.fourth-part{
+    display: none;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    text-align: left;
+}
+
+nav.fourth-part a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+    font-weight: inherit;
+}
+
+nav.fourth-part a:hover{
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+nav.fourth-part a:hover .top-menu-container{
+    display: flex;
+}
+
 
 .sub-menu p{
     color: #7f7f7f;
@@ -168,8 +199,13 @@ nav.sub-menu a:hover{
     text-decoration: underline;
 }
 
-#Log-in{
-    border-left: 1px solid #e5e5e5;
+#smaller-text p{
+    font-size: 12px;
+}
+
+#line{
+    height: 30px;
+    border: 1px solid #e5e5e5;
 }
 
 /*------------------main-------------------*/
@@ -658,11 +694,6 @@ footer{
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
-
-
-
-
-
 }
 
 
