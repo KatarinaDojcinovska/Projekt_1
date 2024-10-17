@@ -531,7 +531,7 @@ main{
 footer{
     padding-top: 50px;
     padding-bottom: 20px;
-    border-top: 1px solid  #999999;
+    border-top: 1px solid #e5e5e5;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
