@@ -39,29 +39,29 @@ header{
     padding: 10px;
 }
 
-nav#top-menu{
+nav#Navigation{
     display: flex;
 }
 
-.top-menu-container{
+.Navigation-container{
     position: relative;
     text-align: center;
     padding: 10px;
 }
 
-.top-menu-items{
+.Navigation-items{
     display:block;
     padding: 10px 15px;
     color: black;
     text-decoration: none;
 }
 
-.top-menu-items:hover{
+.Navigation-items:hover{
     background-color:#e5e5e5;
     border-radius: 5px;
 }
 
-nav.sub-menu-part1{
+nav.dropdown-part1{
     display: none;
     flex-direction: column;
     border-radius: 5px;
@@ -72,15 +72,15 @@ nav.sub-menu-part1{
     box-shadow:5px 5px 16px 5px rgba(0, 0, 0, 0.2); ;
 }
 
-.top-menu-container:hover nav.sub-menu-part1{
+.Navigation-container:hover nav.dropdown-part1{
     display: flex;
 }
 
-nav.sub-menu-part1:hover{
+nav.dropdown-part1:hover{
     border-radius: 5px;
 }
 
-nav.sub-menu{
+nav.dropdown-menu{
     display: none;
     flex-direction: column;
     border-radius: 5px;
@@ -92,7 +92,7 @@ nav.sub-menu{
     box-shadow:5px 5px 16px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav.sub-menu a{
+nav.dropdown-menu a{
     text-decoration: none;
     padding: 10px 10px;
     color: black;
@@ -100,12 +100,12 @@ nav.sub-menu a{
 }
 
 
-nav.sub-menu a:hover{
+nav.dropdown-menu a:hover{
     background-color: #e5e5e5;
     border-radius: 5px;
 }
 
-.sub-menu p{
+.dropdown-menu p{
     color: #7f7f7f;
 }
 
@@ -132,13 +132,8 @@ nav.fourth-part a:hover{
     border-radius: 5px;
 }
 
-nav.fourth-part a:hover .top-menu-container{
+nav.fourth-part a:hover .Navigation-container{
     display: flex;
-}
-
-
-.sub-menu p{
-    color: #7f7f7f;
 }
 
 /*-------------ai------------*/
@@ -172,11 +167,11 @@ nav.fourth-part a:hover .top-menu-container{
     font-size: 12px;
 }
 
-/*----------hover------------*/
-
-.top-menu-container:hover nav.sub-menu{
+.Navigation-container:hover nav.dropdown-menu{
     display: flex;
 }
+
+/*----------hover------------*/
 
 .Free-button{
     padding: 10px;
@@ -287,6 +282,7 @@ main{
     font-size: 25px;
     padding: 10px;
     margin: 10px;
+    font-weight: 500;
 }
 
 .middle-img{
@@ -568,11 +564,11 @@ main{
 
 footer{
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     border-top: 1px solid #e5e5e5;
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .box-2{
@@ -583,7 +579,7 @@ footer{
 #wrapper p{
     font-size: 12px;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .box-2 h5{
