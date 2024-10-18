@@ -502,11 +502,6 @@ main{
     margin: 0;
 }
 
-#brand-footer{
-    width: 120px;
-    padding: 5px;
-}
-
 /*------------footer-------------*/
 .footer-img{
     width: 20px;
@@ -522,6 +517,11 @@ footer{
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+}
+
+#brand-footer{
+    width: 120px;
+    padding: 5px;
 }
 
 #wrapper p{
@@ -543,7 +543,6 @@ footer{
 
 
 .box-2 p{
-
     font-size:13px;
     color: #999999;
     display: flex;
@@ -564,7 +563,6 @@ footer{
 .list a:hover{
     text-decoration: underline;
 }
-
 
 @media (max-width: 600px) {
     nav#Navigation{
